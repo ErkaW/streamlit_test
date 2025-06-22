@@ -10,4 +10,4 @@ digit = st.number_input("Enter a digit (0–9):", min_value=0, max_value=9, step
 if st.button("Generate"):
     st.success(f"Generated images for digit {digit}")
     image = generate_digit_images(digit)
-    st.image(image, caption=f"Generated Digit {digit}", use_column_width=True)
+    st.image(image, caption=f"Generated Digit {digit}", use_container_width=True)
