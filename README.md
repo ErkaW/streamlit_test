@@ -12,3 +12,5 @@ This is a Streamlit web app that generates handwritten digits (0–9) using a Co
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+## If you want to edit the model you can edit MNIST_GAN.ipynb
